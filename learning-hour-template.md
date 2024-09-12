@@ -5,14 +5,14 @@ There is a chance we miss edge cases in our test. This is where Mutation Testing
 
 ## Learning Goals
   - Understand what Mutation Testing can show us about our tests
-  - Experince using Mutation Testing to discover bugs in our code
+  - Experiencing using Mutation Testing to discover simple bugs in our code
 
 ## Session Outline
-  - 10 min connect: How do you judge test quality?
-  - 15 min concept: What is a Mutation?
-  - 25 min do: Simple Mutation Testing Kata
-  - 10 min reflect: What mutations did you see?
-  - 
+  - **10 min connect**: How do you judge test quality?
+  - **15 min concept**: What is a Mutation?
+  - **25 min do**: Simple Mutation Testing Kata
+  - **10 min reflect**: What mutations did you see?
+
 ### Connect - How do you judge test quality?
 
 Write down the ways you judge the quality of your tests.
