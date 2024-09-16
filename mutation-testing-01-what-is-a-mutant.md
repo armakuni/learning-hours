@@ -28,7 +28,8 @@ Describe some of the type of mutation that can be made by a mutation testing fra
 
 ### Do - Simple Mutation Testing Kata
 
-In pairs complete the Simple Mutation Testing Kata making a note of all the types of mutations you see.
+In pairs complete the [Simple Mutation Testing Kata](https://github.com/armakuni/simple-mutation-testing-kata) making a 
+note of all the types of mutations you see.
 
 ### Reflect - What mutations did you see?
 

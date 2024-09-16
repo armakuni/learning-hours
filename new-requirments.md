@@ -21,6 +21,6 @@ Take an existing implementation of FizzBuzz and add the requirement of Bang! div
 
 ### Do -
 
-Complete the evolution of FizzBuzz kata
+Complete the [evolution of FizzBuzz kata](https://github.com/armakuni/fizz-buzz-evolutionary-design-kata)
 
 ### Reflect - 
