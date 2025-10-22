@@ -15,6 +15,8 @@ This is a collection of Learning hours we have developed ourselves that extend t
   - [Evolutionary Design](new-requirments.md) [_In Progress_]
   - MVP
     - Walking Skeleton [_Idea_]
+  - Pair Programming
+    - [Intro to Pair Programming](intro-to-pair-programming.md)
   - Design Patterns [_Idea_]
 
 
