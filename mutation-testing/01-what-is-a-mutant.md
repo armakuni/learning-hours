@@ -6,6 +6,8 @@ There is a chance we miss edge cases in our test. This is where Mutation Testing
 ## Learning Goals
   - Understand what Mutation Testing can show us about our tests
   - Experiencing using Mutation Testing to discover simple bugs in our code
+  - Understanding the types of mutations that can be made by a Mutation Testing Framework
+  - Understanding the importance of testing edge cases
 
 ## Session Outline
   - **10 min connect**: How do you judge test quality?
