@@ -10,8 +10,9 @@ This is a collection of Learning hours we have developed ourselves that extend t
     - Producer
     - Broker
     - Pipeline Integration
-  - Mutation Testing
-    - [What is a Mutant?](mutation-testing-01-what-is-a-mutant.md) [_In Progress_]
+  - **Mutation Testing**
+    - [What is a Mutant?](mutation-testing/01-what-is-a-mutant.md) [_In Review_]
+    - [Understanding Mutation Score](mutation-testing/02-understanding-mutation-score.md) [_In Review_]
   - [Evolutionary Design](new-requirments.md) [_In Progress_]
   - MVP
     - Walking Skeleton [_Idea_]
