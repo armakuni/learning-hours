@@ -15,14 +15,17 @@
 ### Connect - Do our tests give us enough confidence?
 
 Invite all attendees to the session to write down what level of confidence they have in their tests.
-1 = Least Confident
-5 = Most Confident
+  - 1 = Least Confident
+  - 5 = Most Confident
 
-Get each person to share their level of confidence and why they gave that number
+Get each person to share:
+  - level of confidence
+  - why they gave that number?
+  - What would make you more confident?
 
-### Concept - What is a Muation Score?
+### Concept - What is a Mutation Score?
 
-A lot of team use Code Coverage to measure the quality of their of their testing and whilst this tell you how much of your
+A lot of teams use Code Coverage to measure the quality of their of their testing and whilst this tell you how much of your
 code is executed by tests, it doesn't tell you how much of your code is actually tested. This is one of the reasons why 
 mutation testing is so popular. It will give you a metric to measure how much of your code is actually tested. that you 
 can aim to improve on over time.
@@ -30,6 +33,16 @@ can aim to improve on over time.
 All mutation testing frameworks report a mutation score. This can be calculated using the following formula: 
 
 $$\text{Mutation Score} = \frac{\text{Killed Mutants}}{\text{Total Mutants} - \text{Equivalent Mutants}} \times 100$$
+
+Like with code coverage, the higher the mutation score the better.
+
+**Low Mutation Score Example**
+with 200 killed mutants of a possible 920 we have a mutation score of: 21.73913043 which is not particularly good. 
+$$21.73913043 = \frac{200}{1000 - 80} \times 100$$
+
+**High Mutation Score Example**
+with 895 killed mutants of a possible 920 we have a mutation score of: 97.283 which is very good.
+$$97.283 = \frac{895}{1000 - 80} \times 100$$
 
 Where:
   - **Killed Mutants** is the number of mutants that have been killed by the tests.
@@ -40,8 +53,8 @@ Where:
 
 ### Do - Run mutation testing on your project
 
-**Note:** The facilitator of the learning hour should install the mutation testing framework before on the project the 
-session and push it to a branch so that everyone can run it.
+**Note:** The facilitator should install and configure the mutation testing framework on the chosen project before the 
+session, and push the setup to a branch so everyone can clone and run it easily.
 
 In pairs run mutation testing on your project. Look at areas of the code that you have worked on recently and see if you 
 can find any mutants that have not been killed. Do this for both people in the pair.

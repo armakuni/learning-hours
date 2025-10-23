@@ -24,9 +24,7 @@ Discuss the ways with the group.
 
 Mutation testing changes our code under test (Mutates) and then executes the test against the code expecting tests to 
 fail. When a mutation does not make any tests fail, is it said to have escaped and show there is a potential bug in your 
-code. 
-
-Describe some of the types of mutation that can be made by a mutation testing framework
+tests or a missing test. 
 
 ### Types of Mutation
 
@@ -107,7 +105,7 @@ decisions, thus validating that the code behaves correctly under various boundar
 ###### Before
 The code will return whether value `a` is greater than value `b`.
 ```java
-public int greaterThan(int a, int b) {
+public boolean greaterThan(int a, int b) {
     return a > b;
 }
 ```
@@ -115,7 +113,7 @@ public int greaterThan(int a, int b) {
 ###### After
 The mutation testing framework has changed the greater than operator `>` to a greater than or equal to operator `>=`.
 ```java
-public int greaterThan(int a, int b) {
+public boolean greaterThan(int a, int b) {
     return a >= b;
 }
 ```
